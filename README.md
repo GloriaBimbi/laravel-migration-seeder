@@ -20,3 +20,18 @@ Create Model relativo ed un Controller per mostrare nella home page tutti i tren
 ## Bonus
 
 Create una seconda migration per aggiungere/modificare una colonna della tabella
+
+## consegna day two
+
+Aggiungiamo un seeder per la classe Train usando FakerPHP.
+
+## BONUS 1
+
+Implementare il seeder tramite un file csv.
+
+## BONUS 2
+
+Implementare la paginazione dei risultati.
+Per formattare correttamente i links:
+importare la classe Paginator con use Illuminate\Pagination\Paginator; nel file app\Providers\AppServiceProvider.php
+aggiungere la riga Paginator::useBootstrap(); nel metodo boot()
